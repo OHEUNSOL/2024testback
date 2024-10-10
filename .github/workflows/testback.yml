@@ -13,3 +13,10 @@ jobs:
     steps:
       - name: github action
         run: echo "github action"
+
+      - name: hello
+        run: echo "hello world"
+
+      - name: git hello
+        run: echo "git helllo"
+          echo "hello world"
