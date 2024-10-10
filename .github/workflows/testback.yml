@@ -18,5 +18,11 @@ jobs:
         run: echo "hello world"
 
       - name: git hello
-        run: echo "git helllo"
+        run: |
+          echo "git helllo"
           echo "hello world"
+
+      - name: github actions
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
